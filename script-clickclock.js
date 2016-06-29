@@ -316,7 +316,7 @@ if(typeof sprintf != 'function'){
 					CC_setSelect(currentHeure+':'+CC_getTime(false),true);
 					clock.find('.changeAMPM').addClass("hidden");
 					// we take off the hours, then load the minutes
-					clockContainer.find(".clockHour").fadeOut("slow",function(){
+					clockContainer.find(".clockHour").fadeOut(((isAnim)?"slow":1),function(){
 						clockContainer.find(".clockHour").remove();
 						CC_getMinutes();
 					});
@@ -355,7 +355,7 @@ if(typeof sprintf != 'function'){
 					// we reset the focus on the input, lost with the click
 					CC_setSelect(CC_getTime(true)+':'+currentMinute,false);
 					// we take off the minutes, then load the closing
-					clockContainer.find(".clockMinutes").fadeOut("slow",function(){
+					clockContainer.find(".clockMinutes").fadeOut(((isAnim)?"slow":1),function(){
 						clockContainer.find(".clockMinutes").remove();
 						CC_destroy();
 					});
@@ -428,14 +428,14 @@ if(typeof sprintf != 'function'){
 			focusOnHours	 = false;
 			focusOnMinutes	 = false;
 			if(clockAppendice !== undefined){
-				clockAppendice.fadeOut(200,function(){
+				clockAppendice.fadeOut(((isAnim)?200:2),function(){
 					$(this).remove();
 				});
 			}
 			if(clockContainer !== undefined){
-				clockContainer.find(".clockHour").fadeOut('fast');
-				clockContainer.find(".clockMinutes").fadeOut('fast');
-				clockContainer.slideUp("fast",function(){
+				clockContainer.find(".clockHour").fadeOut(((isAnim)?"fast":1));
+				clockContainer.find(".clockMinutes").fadeOut(((isAnim)?"fast":1));
+				clockContainer.slideUp(((isAnim)?"fast":1),function(){
 					$(this).remove();
 					clockGlobalContainer.contents().unwrap();
 				});
