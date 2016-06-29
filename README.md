@@ -32,17 +32,17 @@ once the plugin is launched, at any moment you can access to this methods :
 
 When you call the plugin on a input, you can personalise few values. The rest are considered as defaults values, that can be edited on the beginnig of the JS file :
 
-    var	sizeDefaultBox = 200;				// dimensions of the box containing the clock, in pixels. Have to be between 100 and 800 px.
-    var	thickDefaultClock = 5;				// thickness of the edge of the clock. Have to be between 0 and 50 px.
-    var	hourDefaultStep = 1;				// the step between the displayed hours of the clock. Have to be between 1 and 12.
-    var	minuteDefaultStep = 5;				// the step between the displayed minutes of the clock. Have to be between 1 and 60.
-    var	linkCSS = "clickclock.css";     	// link of the attached CSS file
-    var	am = "morning";				        // text to display for AM / morning
-    var	pm = "afternoon";			    	// text to display for PM / afternoon
-    var	closeMessage = "close";				// text to display for the X (close) button
-    var	questionMessage = "";				// text to display for the ? button
-    var	formatAMPM = true;	    			// format 24h (=true) vs. 12h (=false)
-    var	isAnim = true;		    			// when closing the clock, put a brief animation (=true), or not (=false)
+	var	sizeDefaultBox = 200;				// dimensions of the box containing the clock, in pixels. Have to be between 100 and 800 px.
+	var	thickDefaultClock = 5;				// thickness of the edge of the clock. Have to be between 0 and 50 px.
+	var	hourDefaultStep = 1;				// the step between the displayed hours of the clock. Have to be between 1 and 12.
+	var	minuteDefaultStep = 5;				// the step between the displayed minutes of the clock. Have to be between 1 and 60.
+	var	linkCSS = "clickclock.css";			// link of the attached CSS file
+	var	am = "morning";					// text to display for AM / morning
+	var	pm = "afternoon";				// text to display for PM / afternoon
+	var	closeMessage = "close";				// text to display for the X (close) button
+	var	questionMessage = "To switch AM/PM. simply click on the center of the clock. To select a hour/minute, click on the desired value. Or fill the form";				// text to display for the ? button
+	var	formatAMPM = true;				// format 24h (=true) vs. 12h (=false)
+	var	isAnim = true;					// when closing the clock, put a brief animation (=true), or not (=false)
 
 The plugun is dealing with the text of the input. You cant write letters. Only two pairs of numbers.
 
