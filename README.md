@@ -18,6 +18,7 @@ To force theses inputs to receive a HH:MM value, just insert :
         });
     </script>
 for a quick explaination,
+
     dimClock   : size of the clock (100 <= x <= 800)
     thickClock : size of the border of the clock (0 <= x <= 50)
     stepHour   : step between the hours (1 <= x <= 12), better keep 1.
