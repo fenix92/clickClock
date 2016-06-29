@@ -36,13 +36,13 @@ When you call the plugin on a input, you can personalise few values. The rest ar
     var	thickDefaultClock = 5;				// thickness of the edge of the clock. Have to be between 0 and 50 px.
     var	hourDefaultStep = 1;				// the step between the displayed hours of the clock. Have to be between 1 and 12.
     var	minuteDefaultStep = 5;				// the step between the displayed minutes of the clock. Have to be between 1 and 60.
-    var	linkCSS = "clickclock.css";             	// link of the attached CSS file
-    var	am = "morning";					// text to display for AM / morning
-    var	pm = "afternoon";				// text to display for PM / afternoon
+    var	linkCSS = "clickclock.css";     	// link of the attached CSS file
+    var	am = "morning";				        // text to display for AM / morning
+    var	pm = "afternoon";			    	// text to display for PM / afternoon
     var	closeMessage = "close";				// text to display for the X (close) button
     var	questionMessage = "";				// text to display for the ? button
-    var	formatAMPM = true;				// format 24h (=true) vs. 12h (=false)
-    var	isAnim = true;					// when closing the clock, put a brief animation (=true), or not (=false)
+    var	formatAMPM = true;	    			// format 24h (=true) vs. 12h (=false)
+    var	isAnim = true;		    			// when closing the clock, put a brief animation (=true), or not (=false)
 
 The plugun is dealing with the text of the input. You cant write letters. Only two pairs of numbers.
 
