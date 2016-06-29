@@ -1,6 +1,10 @@
 # jQuery-clickClock
 
-**jQuery** plugin that force an input (type text) to reicive a TIME value **HH:MM** (hours : minutes). Nothing else. Easy to use, and user-friendly. Simply click on a virtual clock OR fill the form with the num keypad. Please consider the following html :
+**jQuery** plugin that force an input (type text) to reicive a TIME value **HH:MM** (hours : minutes). Nothing else. Easy to use, and user-friendly. Simply click on a virtual clock OR fill the form with the num keypad.
+
+online-example : http://www.clamart-natation.com/clickclock/
+
+Please consider the following html :
 
     <input type="text" value="00:00" id="foo">
 
