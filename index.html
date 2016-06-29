@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>test clickClock</title>
+		<meta http-equiv="Content-Script-Type" content="text/javascript">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<style media="screen" type="text/css">
+html,body{height:100%;}
+		</style>
+	</head>
+	<body bgcolor="white">
+		<input id="foo" value="7:40" type="text"/>
+		<input id="bar" value="13:54" type="text"/>
+		<script type="text/javascript">
+ //<![CDATA[
+$(document).ready(function(){
+	var clockTest1 = $("#foo").clickClock();
+ 	var clockTest2 = $("#bar").clickClock({
+		dimClock: 300,
+		thickClock: 30,
+		stepMinutes: 10
+	});
+});
+//]]>
+		</script>
+		<script type="text/javascript" src="script-clickclock.js"></script>
+	</body>
+</html>
