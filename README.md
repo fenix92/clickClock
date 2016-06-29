@@ -53,7 +53,7 @@ The plugin is dealing with the text of the input. You can't write letters. Only 
 
 ### Ideas of upgrade :
 
- - add methods like clickClok1.setTime("14:50");
+ - add methods like clickClok1.setTime("14:50"); (however, we can do clickClok1.val("14:50"), but without any control on the value)
  - this clock is made to be with the 24-hours format. I started to write a 12-hours versions, but ... I will finish it if someone really needs ;)
  - the clock don't dissapear if we click elsewhere else, or if any non-clickclock input is selected.
 
