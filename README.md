@@ -44,7 +44,7 @@ When you call the plugin on a input, you can personalise few values. The rest ar
 	var	formatAMPM = true;				// format 24h (=true) vs. 12h (=false)
 	var	isAnim = true;					// when closing the clock, put a brief animation (=true), or not (=false)
 
-The plugun is dealing with the text of the input. You cant write letters. Only two pairs of numbers.
+The plugin is dealing with the text of the input. You can't write letters. Only two pairs of numbers. Please also note than the .CSS file is loaded in the script you can modify the link inside (but loading the CSS file normaly is working too !)
 
 
 ### Ideas of upgrade :
