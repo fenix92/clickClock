@@ -30,7 +30,7 @@ once the plugin is launched, at any moment you can access to this methods :
     clickClok1.close();	// close the current clock of $("#foo1") if opened
     clickClok1.closeAll();	// close all the opened clocks from the current document. note that you can call this function on any clickclock.
 
-When you call the plugin on a input, you can personalise few values. The rest are considered as defaults values, that can be edited on the beginnig of the JS file :
+When you call the plugin on a input, you can personalise few values (above). The rest are considered as defaults values, that can be edited on the beginnig of the JS file (below):
 
 	var	sizeDefaultBox = 200;				// dimensions of the box containing the clock, in pixels. Have to be between 100 and 800 px.
 	var	thickDefaultClock = 5;				// thickness of the edge of the clock. Have to be between 0 and 50 px.
