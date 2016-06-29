@@ -1,7 +1,7 @@
 /*
 		=================================
 						
-			CSS Clock	
+			CSS clickClock	
 						
 	 	=================================
 
@@ -62,7 +62,7 @@
 	cursor:pointer;
 }
 .clockLegend:hover{
-	color:#69a0e8;
+	color:#1e1e1e;
 }
 .clockLegend:hover span{
 	color:#000000;
@@ -100,7 +100,7 @@
 	background-color:#FFFFFF;
 	border-radius: 50%;
 	border:1px #1e1e1e solid;
-	font-family: cour;
+	font-family: verdana;
 }
 .clockCenter,
 .hourHand,
@@ -175,7 +175,7 @@
 	z-index:12;
 }
 .clockSelected{
-	background-color:#e1ffff!important;
+	background-color:#f1f1f1!important;
 }
 .clockHour,
 .clockMinutes{
@@ -188,6 +188,10 @@
 }
 .clockHour:hover,
 .clockMinutes:hover{
-	background-color:#69a0e8!important;
+	background-color:#1e1e1e!important;
+	color:#ffffff!important;
 }
-
+.hidden{
+	display:none;
+	visibility:hidden;
+}
