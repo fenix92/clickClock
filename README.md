@@ -24,7 +24,7 @@ for a quick explaination,
     stepHour   : step between the hours (1 <= x <= 12), better keep 1.
     stepMinute : step between the minutes (1 <= x <= 60), better keep 5/10/15
 
-once the plugin is launched, at any moment you can access to this : methods
+once the plugin is launched, at any moment you can access to this methods :
 
     clickClok1.focus();	// put the focus on $("#foo1") & prepare/show the clock
     clickClok1.close();	// close the current clock of $("#foo1") if opened
